@@ -1,0 +1,77 @@
+[
+    {
+        "Rank": 1,
+        "Cost": 1000,
+        "Color": "BDC0BA"
+    },
+    {
+        "Rank": 2,
+        "Cost": 5000,
+        "Color": "91989F"
+    },
+    {   
+        "Rank": 3,
+        "Cost": 15000,
+        "Color": "707C74"
+    },
+    {
+        "Rank": 4,
+        "Cost": 45000,
+        "Color": "4F726C"
+    },
+    {
+        "Rank": 5,
+        "Cost": 85000,
+        "Color": "0F4C3A"
+    },
+    {
+        "Rank": 6,
+        "Cost": 150000,
+        "Color": "268785"
+    },
+    {
+        "Rank": 7,
+        "Cost": 350000,
+        "Color": "66BAB7"
+    },
+    {
+        "Rank": 8,
+        "Cost": 750000,
+        "Color": "00AA90"
+    },
+    {
+        "Rank": 9,
+        "Cost": 1250000,
+        "Color": "51A8DD"
+    },
+    {
+        "Rank": 10,
+        "Cost": 2500000,
+        "Color": "B28FCE"
+    },
+    {
+        "Rank": 11,
+        "Cost": 5000000,
+        "Color": "986DB2"
+    },
+    {
+        "Rank": 12,
+        "Cost": 10000000,
+        "Color": "C1328E"
+    },
+    {
+        "Rank": 13,
+        "Cost": 15000000,
+        "Color": "E03C8A"
+    },
+    {
+        "Rank": 14,
+        "Cost": 20000000,
+        "Color": "F75C2F"
+    },
+    {
+        "Rank": 15,
+        "Cost": 25000000,
+        "Color": "E83015"
+    }
+]

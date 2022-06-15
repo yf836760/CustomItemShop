@@ -1,0 +1,626 @@
+[
+  {
+    "Item": 23,
+    "Rank": 2,
+    "Text": "Gel",
+    "Amount": 999,
+    "Price": 1000
+  },
+  {
+    "Item": 29,
+    "Rank": 2,
+    "Text": "LifeCrystal",
+    "Amount": 3,
+    "Price": 30000
+  },
+  {
+    "Item": 49,
+    "Rank": 2,
+    "Text": "BandofRegeneration",
+    "Amount": 1,
+    "Price": 10000
+  },
+  {
+    "Item": 53,
+    "Rank": 2,
+    "Text": "CloudinaBottle",
+    "Amount": 1,
+    "Price": 10000
+  },
+  {
+    "Item": 54,
+    "Rank": 2,
+    "Text": "HermesBoots",
+    "Amount": 1,
+    "Price": 10000
+  },
+  {
+    "Item": 74,
+    "Rank": 2,
+    "Text": "PlatinumCoin",
+    "Amount": 1,
+    "Price": 100000
+  },
+  {
+    "Item": 238,
+    "Rank": 2,
+    "Text": "WizardHat",
+    "Amount": 1,
+    "Price": 1000
+  },
+  {
+    "Item": 321,
+    "Rank": 2,
+    "Text": "Tombstone",
+    "Amount": 7,
+    "Price": 10000
+  },
+  {
+    "Item": 410,
+    "Rank": 2,
+    "Text": "MiningShirt",
+    "Amount": 1,
+    "Price": 2000
+  },
+  {
+    "Item": 411,
+    "Rank": 2,
+    "Text": "MiningPants",
+    "Amount": 1,
+    "Price": 2000
+  },
+  {
+    "Item": 857,
+    "Rank": 2,
+    "Text": "SandstorminaBottle",
+    "Amount": 1,
+    "Price": 20000
+  },
+  {
+    "Item": 905,
+    "Rank": 2,
+    "Text": "钱币枪",
+    "Amount": 1,
+    "Price": 10000000
+  },
+  {
+    "Item": 930,
+    "Rank": 2,
+    "Text": "FlareGun",
+    "Amount": 1,
+    "Price": 1000
+  },
+  {
+    "Item": 934,
+    "Rank": 2,
+    "Text": "FlyingCarpet",
+    "Amount": 1,
+    "Price": 5000
+  },
+  {
+    "Item": 937,
+    "Rank": 2,
+    "Text": "LandMine",
+    "Amount": 10,
+    "Price": 3000
+  },
+  {
+    "Item": 953,
+    "Rank": 2,
+    "Text": "ClimbingClaws",
+    "Amount": 1,
+    "Price": 10000
+  },
+  {
+    "Item": 975,
+    "Rank": 2,
+    "Text": "ShoeSpikes",
+    "Amount": 1,
+    "Price": 10000
+  },
+  {
+    "Item": 1290,
+    "Rank": 2,
+    "Text": "PanicNecklace",
+    "Amount": 1,
+    "Price": 2000
+  },
+  {
+    "Item": 1291,
+    "Rank": 2,
+    "Text": "LifeFruit",
+    "Amount": 3,
+    "Price": 100000
+  },
+  {
+    "Item": 2219,
+    "Rank": 2,
+    "Text": "CelestialMagnet",
+    "Amount": 1,
+    "Price": 50000
+  },
+  {
+    "Item": 2279,
+    "Rank": 2,
+    "Text": "GypsyRobe",
+    "Amount": 1,
+    "Price": 3000
+  },
+  {
+    "Item": 2292,
+    "Rank": 2,
+    "Text": "FiberglassFishingPole",
+    "Amount": 1,
+    "Price": 2000
+  },
+  {
+    "Item": 2354,
+    "Rank": 2,
+    "Text": "FishingPotion",
+    "Amount": 3,
+    "Price": 10000
+  },
+  {
+    "Item": 2355,
+    "Rank": 2,
+    "Text": "SonarPotion",
+    "Amount": 3,
+    "Price": 10000
+  },
+  {
+    "Item": 2356,
+    "Rank": 2,
+    "Text": "CratePotion",
+    "Amount": 3,
+    "Price": 10000
+  },
+  {
+    "Item": 2373,
+    "Rank": 2,
+    "Text": "HighTestFishingLine",
+    "Amount": 1,
+    "Price": 20000
+  },
+  {
+    "Item": 2374,
+    "Rank": 2,
+    "Text": "AnglerEarring",
+    "Amount": 1,
+    "Price": 20000
+  },
+  {
+    "Item": 2375,
+    "Rank": 2,
+    "Text": "TackleBox",
+    "Amount": 1,
+    "Price": 20000
+  },
+  {
+    "Item": 3031,
+    "Rank": 2,
+    "Text": "BottomlessBucket",
+    "Amount": 1,
+    "Price": 2000
+  },
+  {
+    "Item": 3094,
+    "Rank": 2,
+    "Text": "Javelin",
+    "Amount": 99,
+    "Price": 10
+  },
+  {
+    "Item": 3124,
+    "Rank": 2,
+    "Text": "CellPhone",
+    "Amount": 1,
+    "Price": 2000000
+  },
+  {
+    "Item": 3183,
+    "Rank": 2,
+    "Text": "GoldenBugNet",
+    "Amount": 1,
+    "Price": 100000
+  },
+  {
+    "Item": 3258,
+    "Rank": 2,
+    "Text": "SlapHand",
+    "Amount": 1,
+    "Price": 300000
+  },
+  {
+    "Item": 3269,
+    "Rank": 2,
+    "Text": "MedusaHead",
+    "Amount": 1,
+    "Price": 300000
+  },
+  {
+    "Item": 3374,
+    "Rank": 2,
+    "Text": "CorruptHardenedSand",
+    "Amount": 1,
+    "Price": 1000
+  },
+  {
+    "Item": 3375,
+    "Rank": 2,
+    "Text": "CrimsonHardenedSand",
+    "Amount": 1,
+    "Price": 1000
+  },
+  {
+    "Item": 3376,
+    "Rank": 2,
+    "Text": "CorruptSandstone",
+    "Amount": 1,
+    "Price": 1000
+  },
+  {
+    "Item": 3378,
+    "Rank": 2,
+    "Text": "BoneJavelin",
+    "Amount": 50,
+    "Price": 100
+  },
+  {
+    "Item": 3384,
+    "Rank": 2,
+    "Text": "PortalGun",
+    "Amount": 1,
+    "Price": 50000
+  },
+  {
+    "Item": 4381,
+    "Rank": 2,
+    "Text": "BloodRainBow",
+    "Amount": 1,
+    "Price": 1000
+  },
+  {
+    "Item": 4404,
+    "Rank": 2,
+    "Text": "FloatingTube",
+    "Amount": 1,
+    "Price": 10000
+  },
+  {
+    "Item": 10001,
+    "Rank": 8,
+    "Text": "customitem-魔法导弹(快速)",
+    "Amount": 1,
+    "Price": 10000
+  },
+  {
+    "Item": 10002,
+    "Rank": 15,
+    "Text": "customitem-陨星弓",
+    "Amount": 1,
+    "Price": 1000000
+  },
+  {
+    "Item": 10003,
+    "Rank": 10,
+    "Text": "customitem-精准打击",
+    "Amount": 1,
+    "Price": 500000
+  },
+  {
+    "Item": 10004,
+    "Rank": 7,
+    "Text": "customitem-吸血连弩",
+    "Amount": 1,
+    "Price": 10000
+  },
+  {
+    "Item": 10005,
+    "Rank": 15,
+    "Text": "customitem-巨斧李逵",
+    "Amount": 1,
+    "Price": 1000000
+  },
+  {
+    "Item": 10006,
+    "Rank": 1,
+    "Text": "customitem-天丁页剑",
+    "Amount": 1,
+    "Price": 500000
+  },
+  {
+    "Item": 10007,
+    "Rank": 9,
+    "Text": "customitem-陨石弓",
+    "Amount": 1,
+    "Price": 1000000
+  },
+  {
+    "Item": 10008,
+    "Rank": 15,
+    "Text": "customitem-裂天连弩",
+    "Amount": 1,
+    "Price": 1000000
+  },
+  {
+    "Item": 10009,
+    "Rank": 1,
+    "Text": "customitem-太垃棱镜",
+    "Amount": 1,
+    "Price": 10000
+  },
+  {
+    "Item": 10010,
+    "Rank": 1,
+    "Text": "customitem-珍珠木弓",
+    "Amount": 1,
+    "Price": 500000
+  },
+  {
+    "Item": 10011,
+    "Rank": 10,
+    "Text": "customitem-日耀海豚",
+    "Amount": 1,
+    "Price": 1000000
+  },
+  {
+    "Item": 10012,
+    "Rank": 2,
+    "Text": "customitem-超速滋尿(青)",
+    "Amount": 1,
+    "Price": 50000
+  },
+  {
+    "Item": 10013,
+    "Rank": 3,
+    "Text": "customitem-超速星璇射线",
+    "Amount": 1,
+    "Price": 100000
+  },
+  {
+    "Item": 10014,
+    "Rank": 5,
+    "Text": "customitem-超速蓝色射线",
+    "Amount": 1,
+    "Price": 100000
+  },
+  {
+    "Item": 10015,
+    "Rank": 4,
+    "Text": "customitem-冰霜龙吐息",
+    "Amount": 1,
+    "Price": 100000
+  },
+  {
+    "Item": 10016,
+    "Rank": 6,
+    "Text": "customitem-超速路盲南瓜",
+    "Amount": 1,
+    "Price": 100000
+  },
+  {
+    "Item": 10017,
+    "Rank": 1,
+    "Text": "customitem-圣诞装饰",
+    "Amount": 1,
+    "Price": 1000
+  },
+  {
+    "Item": 10018,
+    "Rank": 7,
+    "Text": "customitem-龟兔赛跑",
+    "Amount": 1,
+    "Price": 100000
+  },
+  {
+    "Item": 10019,
+    "Rank": 8,
+    "Text": "customitem-一片火海",
+    "Amount": 1,
+    "Price": 100000
+  },
+  {
+    "Item": 10020,
+    "Rank": 2,
+    "Text": "customitem-玩火小鬼",
+    "Amount": 1,
+    "Price": 10000
+  },
+  {
+    "Item": 10021,
+    "Rank": 1,
+    "Text": "customitem-全都是泡沫~",
+    "Amount": 1,
+    "Price": 2000
+  },
+  {
+    "Item": 10022,
+    "Rank": 1,
+    "Text": "customitem-撒币(有几率出金币)",
+    "Amount": 1,
+    "Price": 5000
+  },
+  {
+    "Item": 10023,
+    "Rank": 3,
+    "Text": "customitem-电脑线圈",
+    "Amount": 1,
+    "Price": 5000
+  },
+  {
+    "Item": 10024,
+    "Rank": 1,
+    "Text": "customitem-蓝色彗星",
+    "Amount": 1,
+    "Price": 30000
+  },
+  {
+    "Item": 10025,
+    "Rank": 1,
+    "Text": "customitem-小蜜蜂",
+    "Amount": 1,
+    "Price": 1000
+  },
+  {
+    "Item": 10026,
+    "Rank": 2,
+    "Text": "customitem-霸王色霸气",
+    "Amount": 1,
+    "Price": 10000
+  },
+  {
+    "Item": 10027,
+    "Rank": 1,
+    "Text": "customitem-超级撒币(金)",
+    "Amount": 1,
+    "Price": 1000000
+  },
+  {
+    "Item": 10028,
+    "Rank": 5,
+    "Text": "customitem-黑虎掏心",
+    "Amount": 1,
+    "Price": 10000
+  },
+  {
+    "Item": 10029,
+    "Rank": 6,
+    "Text": "customitem-拳王泰森(难度-max)",
+    "Amount": 1,
+    "Price": 1000
+  },
+  {
+    "Item": 10030,
+    "Rank": 4,
+    "Text": "customitem-地狱之雨",
+    "Amount": 1,
+    "Price": 1000
+  },
+  {
+    "Item": 10031,
+    "Rank": 8,
+    "Text": "customitem-悬浮魔法炮",
+    "Amount": 1,
+    "Price": 1000000
+  },
+  {
+    "Item": 10032,
+    "Rank": 9,
+    "Text": "customitem-暴雪女王法杖(定制版)",
+    "Amount": 1,
+    "Price": 1000000
+  },
+  {
+    "Item": 10033,
+    "Rank": 9,
+    "Text": "customitem-弟一分形",
+    "Amount": 1,
+    "Price": 1000000
+  },
+  {
+    "Item": 10034,
+    "Rank": 10,
+    "Text": "customitem-沙尘暴",
+    "Amount": 1,
+    "Price": 1000000
+  },
+  {
+    "Item": 10035,
+    "Rank": 1,
+    "Text": "customitem-沙雹",
+    "Amount": 1,
+    "Price": 5000
+  },
+  {
+    "Item": 10036,
+    "Rank": 3,
+    "Text": "customitem-红弹枪",
+    "Amount": 1,
+    "Price": 50000
+  },
+  {
+    "Item": 10037,
+    "Rank": 3,
+    "Text": "customitem-母鸡下蛋",
+    "Amount": 1,
+    "Price": 50000
+  },
+  {
+    "Item": 10038,
+    "Rank": 3,
+    "Text": "customitem-暗影魔刺",
+    "Amount": 1,
+    "Price": 10000
+  },
+  {
+    "Item": 10039,
+    "Rank": 7,
+    "Text": "customitem-紫雷连锁",
+    "Amount": 1,
+    "Price": 100000
+  },
+  {
+    "Item": 10040,
+    "Rank": 7,
+    "Text": "customitem-就地共鸣",
+    "Amount": 1,
+    "Price": 100000
+  },
+  {
+    "Item": 10041,
+    "Rank": 6,
+    "Text": "customitem-密集恐惧症",
+    "Amount": 1,
+    "Price": 100000
+  },
+  {
+    "Item": 10042,
+    "Rank": 10,
+    "Text": "customitem-夜店女王",
+    "Amount": 1,
+    "Price": 100000
+  },
+  {
+    "Item": 10043,
+    "Rank": 7,
+    "Text": "customitem-我最闪亮",
+    "Amount": 1,
+    "Price": 100000
+  },
+  {
+    "Item": 10044,
+    "Rank": 8,
+    "Text": "customitem-遥仰凤华",
+    "Amount": 1,
+    "Price": 100000
+  },
+  {
+    "Item": 10045,
+    "Rank": 3,
+    "Text": "customitem-定时炸弹",
+    "Amount": 1,
+    "Price": 100000
+  },
+  {
+    "Item": 10046,
+    "Rank": 4,
+    "Text": "customitem-恶魔爪牙",
+    "Amount": 1,
+    "Price": 100000
+  },
+  {
+    "Item": 10047,
+    "Rank": 4,
+    "Text": "customitem-传送钩",
+    "Amount": 1,
+    "Price": 100000
+  },
+  {
+    "Item": 10048,
+    "Rank": 4,
+    "Text": "customitem-弹弹弹",
+    "Amount": 1,
+    "Price": 100000
+  }
+
+]
