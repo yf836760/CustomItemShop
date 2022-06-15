@@ -2,10 +2,10 @@
 A TShock plugin includes Econ, Rank and Shop with custom items
 
 # How-to
-Download release zip.
-Put all <code>.dll</code> files in TShock/ServerPlaugins path.
-Put all <code>.json</code> files in TShock/tshock path.
-The AutoReload.dll in release zip is not a part of the CustomItemShop plugin, but it will save you from excuting /reload when a json file is changed.
+Download release zip. <br />
+Put all <code>.dll</code> files in TShock/ServerPlaugins path. <br />
+Put all <code>.json</code> files in TShock/tshock path. <br />
+The AutoReload.dll in release zip is not a part of the CustomItemShop plugin, but it will save you from excuting /reload when a json file is changed. <br />
 
 # Command
 command: <code>shop</code> <br />
