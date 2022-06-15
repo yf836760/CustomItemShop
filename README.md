@@ -16,8 +16,8 @@ command: <code>econ</code> <br />
   - parameters: <code>player's name</code> <code>value</code> <br />
   
 # Sample
-<img src="./sample1.png" alt="sample1">
-<img src="./sample2.png" alt="sample2">
-<img src="./sample3.png" alt="sample3">
-<img src="./sample4.png" alt="sample4">
-<img src="./sample5.png" alt="sample5">
+<img src="./img_example/sample1.png" alt="sample1">
+<img src="./img_example/sample2.png" alt="sample2">
+<img src="./img_example/sample3.png" alt="sample3">
+<img src="./img_example/sample4.png" alt="sample4">
+<img src="./img_example/sample5.png" alt="sample5">
