@@ -30,4 +30,4 @@ command: <code>econ</code> <br />
 
 # CustomItemSample
 <img src="./gif_example/customitemshop.gif" alt="sample_gif">
-orgin CustomItem repository is <a href= "https://github.com/Interverse/CustomItems">here</a>
+origin CustomItem repository is <a href= "https://github.com/Interverse/CustomItems">here</a>
