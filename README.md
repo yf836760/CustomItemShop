@@ -27,3 +27,7 @@ command: <code>econ</code> <br />
 <img src="./img_example/sample3.png" alt="sample3">
 <img src="./img_example/sample4.png" alt="sample4">
 <img src="./img_example/sample5.png" alt="sample5">
+
+# CustomItemSample
+<img src="./gif_example/customitemshop.gif" alt="sample_gif">
+orgin CustomItem repository is <a href= "https://github.com/Interverse/CustomItems">here</a>
