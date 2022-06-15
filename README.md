@@ -1,6 +1,7 @@
 # CustomItemShop
 A TShock plugin includes Econ, Rank and Shop with custom items
-# How-to
+
+# Command
 command: <code>shop</code> <br />
 - sub-command: <code>list</code> <br />
 - sub-command: <code>buy</code> <br />
