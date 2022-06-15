@@ -33,7 +33,7 @@ command: <code>econ</code> <br />
 <img src="./gif_example/customitemshop.gif" alt="sample_gif">
 origin CustomItem repository is <a href= "https://github.com/Interverse/CustomItems">here</a>
 
-# Shop.json Config Sample
+# shop.json Config Sample
 ```jsonc
   {
     "Item": 29, //the item id in terraria, you can get it from https://terraria.wiki.gg/wiki/Item_IDs
@@ -65,4 +65,18 @@ origin CustomItem repository is <a href= "https://github.com/Interverse/CustomIt
     "Ammo": 0, // use which ammo, you can see the values available in terraria source code
     "UseAnimation": 15 //the item 3029's field in terraria source code. In my case, everthing seem ok if i set the value to 15 or 10
   },
+```
+# rank.json Config Sample
+```jsonc
+    {
+        "Rank": 1, //to level up to level_1
+        "Cost": 1000, // you need cost econ 1000
+        "Color": "BDC0BA" //the prefix color of Level_1
+    },
+    {
+        "Rank": 2, //to level up to level_2
+        "Cost": 5000, // you need cost econ 5000
+        "Color": "91989F" //the prefix color of Level_2
+    }
+    //in this case, the max level is Level_2
 ```
