@@ -3,31 +3,12 @@ using System.Reflection;
 using Terraria;
 using TerrariaApi.Server;
 using TShockAPI;
-using OTAPI;
 using Mono.Data.Sqlite;
-using Terraria.ID;
 using System.IO;
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
-using TerrariaApi.Server;
-using TShockAPI;
 using System.Text.Json.Nodes;
-using System;
-using System.Reflection;
-using Terraria;
-using TerrariaApi.Server;
 using TShockAPI.Hooks;
-using OTAPI;
-using System.Text.Json.Nodes;
-using System.IO;
-using static Terraria.NetMessage;
-using Econ;
 using Microsoft.Xna.Framework;
 
 namespace Econ
@@ -73,6 +54,7 @@ namespace Econ
             ServerApi.Hooks.GameInitialize.Register(this, OnInitialize);
             GeneralHooks.ReloadEvent += OnReload;
             AccountHooks.AccountCreate += OnAccountCreate;
+            PlayerHooks.PlayerPostLogin += OnPlayerPostLogin;
         }
         protected override void Dispose(bool disposing)
         {
@@ -80,7 +62,8 @@ namespace Econ
             {
                 ServerApi.Hooks.GameInitialize.Deregister(this, OnInitialize);
                 GeneralHooks.ReloadEvent -= OnReload;
-
+                AccountHooks.AccountCreate -= OnAccountCreate;
+                PlayerHooks.PlayerPostLogin -= OnPlayerPostLogin;
             }
             base.Dispose(disposing);
         }
@@ -630,7 +613,11 @@ namespace Econ
             EconPlugin.UpdateEcon(0, e.Account.ID);//to create a table for new users
             CreateitemBoughtList();
         }
-
+        private void OnPlayerPostLogin(PlayerPostLoginEventArgs e)
+        {
+            EconPlugin.UpdateEcon(0, e.Player.Account.ID);
+            CreateitemBoughtList();
+        }
         private void RecordBoughtCustomItem(TSPlayer tSPlayer, int item)
         {
             int accountID = tSPlayer.Account.ID;

@@ -49,7 +49,24 @@ namespace Econ
             ServerApi.Hooks.GameInitialize.Register(this, OnInitialize);
             AccountHooks.AccountCreate += OnAccountCreate;
             GeneralHooks.ReloadEvent += OnReload;
-            
+            PlayerHooks.PlayerPostLogin += OnPlayerPostLogin;
+            CreateIDRankDictionary();
+        }
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                TShockAPI.Hooks.PlayerHooks.PlayerChat -= OnChat;
+                ServerApi.Hooks.GameInitialize.Deregister(this, OnInitialize);
+                GeneralHooks.ReloadEvent -= OnReload;
+                AccountHooks.AccountCreate -= OnAccountCreate;
+                PlayerHooks.PlayerPostLogin -= OnPlayerPostLogin;
+            }
+            base.Dispose(disposing);
+        }
+        private void OnPlayerPostLogin(PlayerPostLoginEventArgs e)
+        {
+            EconPlugin.UpdateEcon(0, e.Player.Account.ID);
             CreateIDRankDictionary();
         }
         private void OnAccountCreate(AccountCreateEventArgs e)
@@ -68,16 +85,7 @@ namespace Econ
             args.TShockFormattedText = $"[c/{color}:Level-{rank}] {name}: {args.RawText}";
             args.Handled = false;
         }
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                TShockAPI.Hooks.PlayerHooks.PlayerChat -= OnChat;
-                ServerApi.Hooks.GameInitialize.Deregister(this, OnInitialize);
-                GeneralHooks.ReloadEvent -= OnReload;
-            }
-            base.Dispose(disposing);
-        }
+        
         private void Cmd(CommandArgs args)
         {
 
