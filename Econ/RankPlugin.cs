@@ -56,7 +56,7 @@ namespace Econ
         {
             if (disposing)
             {
-                TShockAPI.Hooks.PlayerHooks.PlayerChat -= OnChat;
+                PlayerHooks.PlayerChat -= OnChat;
                 ServerApi.Hooks.GameInitialize.Deregister(this, OnInitialize);
                 GeneralHooks.ReloadEvent -= OnReload;
                 AccountHooks.AccountCreate -= OnAccountCreate;
@@ -76,14 +76,22 @@ namespace Econ
             
         }
 
-        private void OnChat(TShockAPI.Hooks.PlayerChatEventArgs args)
+        private void OnChat(PlayerChatEventArgs args)
         {
             Player plr = args.Player.TPlayer;
             string name = plr.name;
             int rank = rankIDMap[args.Player.Account.ID];
-            string color = rankColorMap[rank];
-            args.TShockFormattedText = $"[c/{color}:Level-{rank}] {name}: {args.RawText}";
-            args.Handled = false;
+            if (rank != 0)
+            {
+                string color = rankColorMap[rank];
+                args.TShockFormattedText = $"[c/{color}:Level-{rank}] {name}: {args.RawText}";
+                args.Handled = false;
+            }
+            else
+            {
+                args.TShockFormattedText = $"[c/ffffff:Level-{rank}] {name}: {args.RawText}";
+                args.Handled = false;
+            }
         }
         
         private void Cmd(CommandArgs args)
