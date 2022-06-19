@@ -109,6 +109,7 @@ namespace Econ
                 int rankNow = rankIDMap[accountID];
                 int costNeeded = rankNow < maxLevel ? rankCostMap[rankNow + 1] : int.MaxValue;
                 EconPlugin.UpdateEcon(EconPlugin.econPlayers[args.Player.Index].Econ, accountID);
+                EconPlugin.econPlayers[args.Player.Index].Econ = 0;
                 int econ = EconPlugin.QueryEcon(accountID);
                 if (rankNow == maxLevel)
                 {

@@ -301,6 +301,7 @@ namespace Econ
             string text = GetTextOfItemID(itemID);
             
             EconPlugin.UpdateEcon(EconPlugin.econPlayers[tSPlayer.Index].Econ, accountID);
+            EconPlugin.econPlayers[tSPlayer.Index].Econ = 0;
             int econ = EconPlugin.QueryEcon(accountID);
 
 

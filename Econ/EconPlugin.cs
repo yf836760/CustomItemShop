@@ -134,6 +134,7 @@ namespace Econ
             var player = econPlayers[args.Who];
             if (player == null) return;
             UpdateEcon(player.Econ, player.Account);
+            player.Econ = 0;
             econPlayers[args.Who] = null;
         }
         private void AddEconToPlayer(TSPlayer player, int econAmount)
